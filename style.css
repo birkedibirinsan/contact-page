@@ -48,6 +48,10 @@ body {
     border-radius: 5px;
 }
 
+#message {
+    height: 10rem;
+}
+
 .btn:hover {
     background-color: transparent;
     color: whitesmoke;
