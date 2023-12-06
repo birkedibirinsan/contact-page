@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55%;
+    height: 55%;
+    background: rgb(0, 0, 0, 0.7);
+    border: 1px solid rgb(0, 0, 0, 0.7);
+    border-radius: 2%;
+    padding: 1%;
+}
+
+.subdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+}
+
+.btn {
+    width: 30%;
+    height: 100%;
+    font-size: 1em;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+.subdiv a:visited {
+    color: black;
+}
+
+.subdiv a:visited:hover {
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    body {
+        font-size: 10px;
+    }
+}
